@@ -1,0 +1,146 @@
+[
+ {
+   "name": "Slingbacks",
+   "price": 34.99,
+   "description": "Slingbacks with pointed toes and comma heels. Narrow foot strap and an elasticized ankle strap. Jersey lining. Heel height 3 1/2 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0b%2Fd7%2F0bd77e89c467464075b7d236dba4c3d7d282a809.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "brown",
+   "rating": 3.1,
+   "discount": 25
+ },
+ {
+   "name": "Platform Sandals",
+   "price": 39.99,
+   "description": "Platform sandals with round toes and covered block heels. Narrow foot straps and an adjustable ankle strap with metal buckle. Front platform height approx. 1 1/2 in. Heel height 3 3/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc9%2F14%2Fc914003f96ee4184a2784fabb8bedcd6d000ad37.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 4.2,
+   "discount": null
+ },
+ {
+   "name": "Heeled Platform Sandals",
+   "price": 44.99,
+   "description": "Sandals with open toes, wide foot straps and covered block heels. Front platform height approx. 1 1/2 in. Heel height 3 3/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd7%2Faa%2Fd7aad16988bebadaf7928058b347fa6c08a8b05c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shoes%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+   "color": "brown",
+   "rating": 3.7,
+   "discount": null
+ },
+ {
+   "name": "Heeled Platform Sandals",
+   "price": 44.99,
+   "description": "Sandals with open toes, wide foot straps and covered block heels. Front platform height approx. 1 1/2 in. Heel height 3 3/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F63%2F68%2F63680b89dee10e279821a78a4acf6b4e656f38d9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+   "color": "blue",
+   "rating": 4.8,
+   "discount": 20
+ },
+ {
+   "name": "Flip-flops",
+   "price": 14.99,
+   "description": "Flip-flops with a narrow toe post, wide, padded straps, and patterned soles.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F13%2Fef%2F13ef5248c3d7c17bd5ce120a9d6e933d668cd09d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "white",
+   "rating": 4,
+   "discount": null
+ },
+ {
+   "name": "Flip-flops",
+   "price": 14.99,
+   "description": "Flip-flops with a narrow toe post, wide, padded straps, and patterned soles.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F05%2Fd5%2F05d524eb0f2188c4c246936037e56406ec2add1d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "green",
+   "rating": 4.8,
+   "discount": null
+ },
+ {
+   "name": "Flip-flops",
+   "price": 14.99,
+   "description": "Flip-flops with a narrow toe post, wide, padded straps, and patterned soles.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7c%2Ff6%2F7cf656488e206f3fc89b2f45c85e120d371112c1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 4.1,
+   "discount": 50
+ },
+ {
+   "name": "Slides",
+   "price": 17.99,
+   "description": "Slides with a wide foot strap with cut-out section at sides. Fluted soles. Sole thickness approx. 1/2 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F13%2Ff6%2F13f6620c4091457b190b69a54dc6b9526080b34f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "white",
+   "rating": 4.6,
+   "discount": null
+ },
+ {
+   "name": "Slides",
+   "price": 17.99,
+   "description": "Slides with a wide foot strap with cut-out section at sides. Fluted soles. Sole thickness approx. 1/2 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb1%2F17%2Fb1176c73b57b5613acdfb22b4ccef0bf49d6bb15.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 4.6,
+   "discount": null
+ },
+ {
+   "name": "Slides",
+   "price": 17.99,
+   "description": "Slides with a wide foot strap with cut-out section at sides. Fluted soles. Sole thickness approx. 1/2 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F97%2F32%2F9732b0bcd9b0cbc5313809038582c15181808648.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "purple",
+   "rating": 3.5,
+   "discount": 10
+ },
+ {
+   "name": "Slides",
+   "price": 17.99,
+   "description": "Slides with a wide foot strap with cut-out section at sides. Fluted soles. Sole thickness approx. 1/2 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2c%2F11%2F2c1187d0d8c924cb031d3b7ad8ea99627e71516b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "pink",
+   "rating": 3.8,
+   "discount": null
+ },
+ {
+   "name": "Slides",
+   "price": 17.99,
+   "description": "Slides with a wide foot strap with cut-out section at sides. Fluted soles. Sole thickness approx. 1/2 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F36%2F9b%2F369b8c4e7274bfcc13844bf6a5ce7fe66f377f09.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "beige",
+   "rating": 4,
+   "discount": null
+ },
+ {
+   "name": "Heeled Strappy Sandals",
+   "price": 34.99,
+   "description": "Sandals with square toes and covered block heels. Narrow foot straps and a longer strap to wind around ankle and fasten with a metal buckle. Heel 3 1/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F67%2F4d%2F674d7c75bcf9607ee3f548a742be714a70526060.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "white",
+   "rating": 4,
+   "discount": null
+ },
+ {
+   "name": "Heeled Strappy Sandals",
+   "price": 34.99,
+   "description": "Sandals with square toes and covered block heels. Narrow foot straps and a longer strap to wind around ankle and fasten with a metal buckle. Heel 3 1/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F06%2Fe1%2F06e19fe75aa87ab5063b7dd02bc97c9479abdbdc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "beige",
+   "rating": 3.8,
+   "discount": 25
+ },
+ {
+   "name": "Square-toe Slip-on Sandals",
+   "price": null,
+   "description": "Slip-on sandals with open, square toes, knot-detail foot straps, and covered block heels. Heel height 3 1/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F20%2Fe6%2F20e6a45f0a05c56757083d7002afa3a6fb7df291.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "white",
+   "rating": 3.9,
+   "discount": null
+ },
+ {
+   "name": "Square-toe Slip-on Sandals",
+   "price": null,
+   "description": "Slip-on sandals with open, square toes, knot-detail foot straps, and covered block heels. Heel height 3 1/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc6%2Fd9%2Fc6d95a274fa28e9d2c7c202e70639632fb120c03.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "brown",
+   "rating": 3.7,
+   "discount": 10
+ }
+]

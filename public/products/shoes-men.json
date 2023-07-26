@@ -1,0 +1,605 @@
+[
+ {
+   "name": "Chunky Deck-style Shoes",
+   "price": 64.99,
+   "description": "Deck-style shoes with lacing and a moccasin seam at front. Cotton canvas lining and insoles. Chunky, patterned soles. Sole thickness 1 1/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F5d%2F21%2F5d21a34b8e58d471d86e5ea815ed4db53de15856.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 3.1,
+   "discount": 20
+ },
+ {
+   "name": "Loafers",
+   "price": 64.99,
+   "description": "Loafers with a decorative tab and moccasin seam at front. Canvas lining, canvas insoles, and patterned soles. Heel height 1 1/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa2%2Fdf%2Fa2df68113a63c8b33b9b6664a45f5d2c1314bf1e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "brown",
+   "rating": 4.3,
+   "discount": null
+ },
+ {
+   "name": "Chunky Sneakers",
+   "price": 64.99,
+   "description": "Sneakers in mesh with faux leather details. Padded upper edge, padded tongue, and lacing at front. Jersey lining, piqué insoles, and chunky, patterned soles. Sole thickness 2 1/2 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc4%2F5c%2Fc45c38b46a1494d0fa6dcd11bd369efc9338da0f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shoes_sneakers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 4.8,
+   "discount": null
+ },
+ {
+   "name": "Chunky Sneakers",
+   "price": 64.99,
+   "description": "Sneakers in mesh with faux leather details. Padded upper edge, padded tongue, and lacing at front. Jersey lining, piqué insoles, and chunky, patterned soles. Sole thickness 2 1/2 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fda%2Ff1%2Fdaf14aa7250de49db0154b71ccad596768607d29.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "white",
+   "rating": 3.8,
+   "discount": null
+ },
+ {
+   "name": "Sneakers",
+   "price": 56.99,
+   "description": "Sneakers in faux leather with a padded upper edge. Tongue and lacing at front. Lining and insoles in mesh made from recycled polyester. Chunky, patterned soles. Sole thickness 1 3/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F40%2Fa6%2F40a694f44c18cf7466400b78d0ab0dc60f6aaae8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shoes_sneakers%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "red",
+   "rating": 4,
+   "discount": 25
+ },
+ {
+   "name": "Sneakers",
+   "price": 56.99,
+   "description": "Sneakers in faux leather with a padded upper edge. Tongue and lacing at front. Lining and insoles in mesh made from recycled polyester. Chunky, patterned soles. Sole thickness 1 3/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fae%2F61%2Fae61eb8d65981d20aa8c904a4c9095eb474246f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "white",
+   "rating": 3.3,
+   "discount": null
+ },
+ {
+   "name": "Chelsea Boots",
+   "price": 64.99,
+   "description": "Chelsea boots in soft faux suede with elasticized side panels and a loop at back. Lining and insoles in faux leather and cotton canvas. Fluted soles. Heel height 1 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F15%2F2c%2F152c2b1a8f5dade86117bbf3a1f9e16bcc3a4377.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 4.9,
+   "discount": 45
+ },
+ {
+   "name": "Sneakers",
+   "price": 36.99,
+   "description": "Sneakers with a padded upper edge and tongue, and lacing at front. Lining and insoles in piqué. Fluted rubber soles. Sole thickness 1 1/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe5%2Fa9%2Fe5a9e9a8fe6e7420cf5379d18235537dc592d6af.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "white",
+   "rating": 4.3,
+   "discount": null
+ },
+ {
+   "name": "Sneakers",
+   "price": 36.99,
+   "description": "Sneakers with a padded upper edge and tongue, and lacing at front. Lining and insoles in piqué. Fluted rubber soles. Sole thickness 1 1/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1d%2Faa%2F1daac35ca96d9d64f6c9d47b6a6cd4afaf6cf2a0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "beige",
+   "rating": 4.5,
+   "discount": 10
+ },
+ {
+   "name": "Sneakers",
+   "price": 36.99,
+   "description": "Sneakers with a padded upper edge and tongue, and lacing at front. Lining and insoles in piqué. Fluted rubber soles. Sole thickness 1 1/4 in.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F50%2F34%2F5034cda22792182b3aae9cc9b606d078ecaaac05.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 4.7,
+   "discount": null
+ },
+ {
+   "name": "Leather Sandals",
+   "price": 39.99,
+   "description": "Slides in soft leather with adjustable straps. Molded suede insoles and patterned soles.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0f%2Fff%2F0fff0f7267665c4982eeca6c1b2f24e86a5e8379.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shoes_sandals_espandrillos%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "brown",
+   "rating": 3.9,
+   "discount": null
+ },
+ {
+   "name": "Leather Sandals",
+   "price": 39.99,
+   "description": "Slides in soft leather with adjustable straps. Molded suede insoles and patterned soles.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fdd%2F04%2Fdd0461789c309c7cdb9fc28dbe4d4975c3689c1a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shoes_sandals_espandrillos%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 4.7,
+   "discount": 25
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": null,
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ },
+ {
+   "name": "Chelsea Boots",
+   "price": null,
+   "description": null,
+   "image": null,
+   "color": null,
+   "rating": null,
+   "discount": null
+ }
+]

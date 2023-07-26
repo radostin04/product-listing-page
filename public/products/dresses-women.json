@@ -1,0 +1,227 @@
+[
+ {
+   "name": "Ribbed Dress",
+   "price": 29.99,
+   "description": "Long, fitted dress in soft, ribbed, viscose-blend jersey. Narrow shoulder straps and a gently draped neckline.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F90%2Fa8%2F90a8d7cc75a4d1d6f7eb4da14ca320be543d0f15.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 3.4,
+   "discount": null
+ },
+ {
+   "name": "Ribbed Dress",
+   "price": 29.99,
+   "description": "Long, fitted dress in soft, ribbed, viscose-blend jersey. Narrow shoulder straps and a gently draped neckline.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F60%2Fab%2F60ab6dd10411008cfa2264136cb6a7cf0b807146.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "pruple",
+   "rating": 4.3,
+   "discount": null
+ },
+ {
+   "name": "Ribbed Dress",
+   "price": 29.99,
+   "description": "Long, fitted dress in soft, ribbed, viscose-blend jersey. Narrow shoulder straps and a gently draped neckline.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7c%2F1b%2F7c1bcab79023cc5226a5b86a628055e7a7efb5f6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "blue",
+   "rating": 4.2,
+   "discount": null
+ },
+ {
+   "name": "Wrap Dress",
+   "price": 26.99,
+   "description": "Short dress in a woven viscose blend. Narrow, adjustable shoulder straps, V-neck, and wrapover front with wide ties at one side. Elasticized seam at back of waist. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fce%2F8b%2Fce8b6758c4000a7be6792f7a74585bd194c331b1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "orange",
+   "rating": 3.4,
+   "discount": 15
+ },
+ {
+   "name": "Wrap Dress",
+   "price": 26.99,
+   "description": "Short dress in a woven viscose blend. Narrow, adjustable shoulder straps, V-neck, and wrapover front with wide ties at one side. Elasticized seam at back of waist. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F96%2F04%2F96047e80770f40265528c55f1f2a835243ba4961.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 3.7,
+   "discount": null
+ },
+ {
+   "name": "Wrap Dress",
+   "price": 26.99,
+   "description": "Short dress in a woven viscose blend. Narrow, adjustable shoulder straps, V-neck, and wrapover front with wide ties at one side. Elasticized seam at back of waist. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb9%2Ff6%2Fb9f6196f2caad4994bb773ee04bf448ac76f86cd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "beige",
+   "rating": 3.9,
+   "discount": null
+ },
+ {
+   "name": "Tube Dress with Pleats",
+   "price": 29.99,
+   "description": "Short, fitted tube dress in jersey. Concealed zipper at one side with hook-and-eye fastening, shaping darts at back, and pleats at one side of waist for a gently draped effect. Partly lined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe0%2F76%2Fe0767be0ed879b9494c3d7ac4d8e52003bdd0d63.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "orange",
+   "rating": 3.3,
+   "discount": null
+ },
+ {
+   "name": "Tube Dress with Pleats",
+   "price": 29.99,
+   "description": "Short, fitted tube dress in jersey. Concealed zipper at one side with hook-and-eye fastening, shaping darts at back, and pleats at one side of waist for a gently draped effect. Partly lined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6c%2F8c%2F6c8c0f09cfefa333c7c70860639dbf1ab61e416d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "white",
+   "rating": 4.7,
+   "discount": null
+ },
+ {
+   "name": "Tube Dress with Pleats",
+   "price": 29.99,
+   "description": "Short, fitted tube dress in jersey. Concealed zipper at one side with hook-and-eye fastening, shaping darts at back, and pleats at one side of waist for a gently draped effect. Partly lined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F79%2F76%2F79762281947fa21250663e99bdfc4c3ef90f9ffa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 4.2,
+   "discount": null
+ },
+ {
+   "name": "Cr�ped Shirt Dress",
+   "price": 39.99,
+   "description": "Loose-fit, calf-length dress in woven, cr�ped cotton fabric. Collar, buttons full length of front, and yoke at back with pleat. Dropped shoulders, long sleeves, and wide cuffs with slit and button. High slit at sides of hem. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F32%2F50%2F325063177b7644fa37d611dc6206c10c87cc19e3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "green",
+   "rating": 4.6,
+   "discount": null
+ },
+ {
+   "name": "Cr�ped Shirt Dress",
+   "price": 39.99,
+   "description": "Loose-fit, calf-length dress in woven, cr�ped cotton fabric. Collar, buttons full length of front, and yoke at back with pleat. Dropped shoulders, long sleeves, and wide cuffs with slit and button. High slit at sides of hem. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd4%2F0e%2Fd40e271cdb232a84c152e444e3bfd84b406320eb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "blue",
+   "rating": 3.4,
+   "discount": 15
+ },
+ {
+   "name": "Cr�ped Shirt Dress",
+   "price": 39.99,
+   "description": "Loose-fit, calf-length dress in woven, cr�ped cotton fabric. Collar, buttons full length of front, and yoke at back with pleat. Dropped shoulders, long sleeves, and wide cuffs with slit and button. High slit at sides of hem. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F4f%2F0b%2F4f0b51e5c3ee1c2e49109bfa4907ea23dd76d15f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "red",
+   "rating": 4,
+   "discount": null
+ },
+ {
+   "name": "Pleated Tunic Dress",
+   "price": 34.99,
+   "description": "Loose-fit, calf-length tunic dress in pleated, woven fabric with a sheen. V-neck and short sleeves. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F25%2F7e%2F257e57edef27589d413ca5ce31278ef52c1da29a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 3.9,
+   "discount": null
+ },
+ {
+   "name": "Pleated Tunic Dress",
+   "price": 34.99,
+   "description": "Loose-fit, calf-length tunic dress in pleated, woven fabric with a sheen. V-neck and short sleeves. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F12%2F5c%2F125ca91c007b385e622d13ea455926f61ba4e088.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "green",
+   "rating": 4.8,
+   "discount": 25
+ },
+ {
+   "name": "Pleated Tunic Dress",
+   "price": 34.99,
+   "description": "Loose-fit, calf-length tunic dress in pleated, woven fabric with a sheen. V-neck and short sleeves. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ffb%2Fa0%2Ffba03e56d4120d778cc807324ca1750b3583c099.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "white",
+   "rating": 4.4,
+   "discount": null
+ },
+ {
+   "name": "Pleated Tunic Dress",
+   "price": 34.99,
+   "description": "Loose-fit, calf-length tunic dress in pleated, woven fabric with a sheen. V-neck and short sleeves. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd5%2F85%2Fd58541a61cb3886724f0079810d58b54dee3ac02.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "beige",
+   "rating": 4,
+   "discount": null
+ },
+ {
+   "name": "Fringe-trimmed Satin Wrap Dress",
+   "price": 49.99,
+   "description": "Short dress in softly draped satin with long fringe at hem. V-neck, wrapover front with wide ties at one side, and an elasticized seam at back of waist. Heavily dropped shoulders and long sleeves with slit and button at cuffs. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0b%2F87%2F0b879e021d6bfd1bedd3ea8e3a44cc78bcbe535b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "green",
+   "rating": 3.7,
+   "discount": 10
+ },
+ {
+   "name": "Fringe-trimmed Satin Wrap Dress",
+   "price": 49.99,
+   "description": "Short dress in softly draped satin with long fringe at hem. V-neck, wrapover front with wide ties at one side, and an elasticized seam at back of waist. Heavily dropped shoulders and long sleeves with slit and button at cuffs. Unlined.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa2%2F9b%2Fa29b7087df172cb8701c52bc278a24616727f05a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 4.2,
+   "discount": null
+ },
+ {
+   "name": "Draped Bodycon Dress",
+   "price": 29.99,
+   "description": "Fitted, calf-length dress in cr�ped jersey. Narrow, adjustable shoulder straps crossed at back, low-cut V-neck, and gathers at front for a draped effect. Slit at front of hem.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F5a%2Fb7%2F5ab77cc12fafe19a90bf817d04eb5668886425ff.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 4.9,
+   "discount": null
+ },
+ {
+   "name": "Draped Bodycon Dress",
+   "price": 29.99,
+   "description": "Fitted, calf-length dress in cr�ped jersey. Narrow, adjustable shoulder straps crossed at back, low-cut V-neck, and gathers at front for a draped effect. Slit at front of hem.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8b%2F32%2F8b324b1453c7c06aa0ff008bce96a988b9326e17.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "blue",
+   "rating": 4.6,
+   "discount": null
+ },
+ {
+   "name": "Draped Bodycon Dress",
+   "price": 29.99,
+   "description": "Fitted, calf-length dress in cr�ped jersey. Narrow, adjustable shoulder straps crossed at back, low-cut V-neck, and gathers at front for a draped effect. Slit at front of hem.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F77%2F66%2F77668966f4e4bf45e5fada015a14e4f3ab90d9df.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "mint",
+   "rating": 4.7,
+   "discount": 20
+ },
+ {
+   "name": "Crinkled Jersey Dress",
+   "price": 17.99,
+   "description": "Short dress in crinkled jersey with a fitted bodice. Narrow, adjustable shoulder straps, square neckline, and gathered seam below bust. Gently flared skirt. Lined over bust.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0b%2Fb1%2F0bb1b25f908ce162325e9ea70b55d6f05b550e1b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "white",
+   "rating": 3.6,
+   "discount": null
+ },
+ {
+   "name": "Crinkled Jersey Dress",
+   "price": 17.99,
+   "description": "Short dress in crinkled jersey with a fitted bodice. Narrow, adjustable shoulder straps, square neckline, and gathered seam below bust. Gently flared skirt. Lined over bust.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F83%2Fd1%2F83d1ed8f6c3fd039c68db4d1d4131028b3dde59a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "black",
+   "rating": 3.3,
+   "discount": null
+ },
+ {
+   "name": "Crinkled Jersey Dress",
+   "price": 17.99,
+   "description": "Short dress in crinkled jersey with a fitted bodice. Narrow, adjustable shoulder straps, square neckline, and gathered seam below bust. Gently flared skirt. Lined over bust.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F9f%2F22%2F9f22a02a8f89fc1dc39de31965e962a2cc3e1600.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "blue",
+   "rating": 4.8,
+   "discount": null
+ },
+ {
+   "name": "Crinkled Jersey Dress",
+   "price": 17.99,
+   "description": "Short dress in crinkled jersey with a fitted bodice. Narrow, adjustable shoulder straps, square neckline, and gathered seam below bust. Gently flared skirt. Lined over bust.",
+   "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F07%2Fcb%2F07cb3113fe3de196ca7e2468a983d8202a9753d7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+   "color": "beige",
+   "rating": 3.1,
+   "discount": 35
+ }
+]
