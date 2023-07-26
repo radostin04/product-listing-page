@@ -1,24 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ProductTile from './components/productTile/productTile';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProductTile
+      name="test"
+      description="description"
+      price={19.99}
+      discount={20}
+      rating={4.6}
+      image="https://dev.bg/wp-content/uploads/2021/09/s4-v1-black-46x40.png"></ProductTile>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+/* 
+contains icons: 
+f000 - star
+eee4 - close */
+
+@font-face {
+  font-family: "IcoFont";
+  font-style: "Regular";
+  src: url("./fonts/icofont.woff2") format("woff2")
+}

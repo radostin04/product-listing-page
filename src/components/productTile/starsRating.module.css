@@ -1,0 +1,26 @@
+.starsContainer {
+  font-family: "icofont";
+}
+
+.full {
+  color: gold;
+}
+
+.half {
+  position: relative;
+}
+
+.half:after {
+  content: '\f000';
+  font-family: "icofont";
+  color: gold;
+  width: 50%;
+  position: absolute;
+  overflow: hidden;
+  left:0;
+  top:0;
+}
+
+.empty {
+  color: grey;
+  }
