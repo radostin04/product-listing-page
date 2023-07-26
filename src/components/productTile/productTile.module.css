@@ -1,6 +1,7 @@
 .container {
   border: 1px solid black;
-  max-width: 400px;
+  max-width: 330px;
+  justify-self: center;
   display: flex;
   flex-direction: column;
 }
@@ -8,18 +9,25 @@
   margin: 1rem;
 }
 .container h6 {
-  font-size: 24pt;
-  margin: 1rem;
+  font-size: 20pt;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0.25rem 1rem;
   text-align: left;
 }
 
 .container p {
   margin: 0rem 1rem;
   text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .priceAndAddContainer {
   display: flex;
+  height: 6rem;
 }
 
 .priceAndAddContainer .price {
@@ -27,6 +35,7 @@
   margin: 1rem;
   padding: 0.5rem;
   width: fit-content;
+  background-color: gray;
 }
 
 .priceAndAddContainer .price * {
@@ -37,10 +46,21 @@
 
 .priceAndAddContainer .price p {
   font-size: 16pt;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .priceAndAddContainer .price.discount, .priceAndAddContainer .price.discount p {
   background-color: red;
+}
+
+.price.discount p.priceText {
+  margin-right: 0.25rem;
+}
+
+.price.discount p.discountText {
+  margin-left: 0.25rem;
 }
 
 .priceAndAddContainer .addButton {
