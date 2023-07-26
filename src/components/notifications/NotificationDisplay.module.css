@@ -1,0 +1,18 @@
+.notificationDisplayContainer {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.notificationDisplayChildren {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* > css selector only matches direct children of first element */
+.notificationDisplayChildren > * {
+  margin: 0.5rem;
+}

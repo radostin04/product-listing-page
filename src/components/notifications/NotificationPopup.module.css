@@ -1,0 +1,38 @@
+.notificationPopup {
+  background-color: gray;
+  width: 30vw;
+  min-width: 300px;
+  border-radius: 0.5rem;
+  pointer-events: all;
+}
+
+.notificationText {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+.countdownBarBar {
+  height: 10px;
+  width: 100%;
+  background-color: gray;
+  border-radius: 0.5rem;
+}
+
+.countdownBarFilled {
+  height: 100%;
+  width: 0%;
+  /* 0.28 rem makes the top left corner look seamless*/
+  border-radius: 0.28rem 0rem 0.25rem 0rem;
+  background-color: green;
+  animation-name: countdownEmpty;
+}
+
+@keyframes countdownEmpty {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}

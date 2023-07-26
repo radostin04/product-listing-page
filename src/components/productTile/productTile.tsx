@@ -1,5 +1,6 @@
 import StarsRating from "./starsRating";
 import classes from "./productTile.module.css";
+import { MouseEventHandler } from "react";
 
 const ProductTile: React.FC<{
   name: string;
@@ -8,6 +9,7 @@ const ProductTile: React.FC<{
   discount?: number;
   rating: number;
   image: string;
+  onClickButton: MouseEventHandler<HTMLButtonElement>;
 }> = (props) => {
   const priceClasses = props.discount ? `${classes.price} ${classes.discount}` : `${classes.price}`;
   return (
@@ -22,7 +24,7 @@ const ProductTile: React.FC<{
           {props.discount ? <p>-{props.discount}%</p> : null}
         </div>
         <div className={classes.addButton}>
-          <button>Add to Cart</button>
+          <button onClick={props.onClickButton}>Add to Cart</button>
         </div>
       </div>
     </div>
