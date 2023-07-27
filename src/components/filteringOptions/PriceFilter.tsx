@@ -3,23 +3,19 @@ import ReactSlider from "react-slider";
 import { Product } from "../../types";
 
 import classes from "./PriceFilter.module.css"
-import { useEffect, useContext } from "react";
-import useProductsContext from "../../store/products-context";
-const PriceFilter: React.FC<{products: Product[]}> = (props) => {
 
-  const productsCtx = useContext(useProductsContext());
+const PriceFilter: React.FC<{products: Product[], updatePriceFilter: (newValue: number[]) => void}> = (props) => {
+
   let productPrices: number[] = []
 
   const priceFilterChangeHandler = (newValue: number[], index: number) => {
-    productsCtx.resetFilters();
-    productsCtx.filterProductsByPrice(newValue[0], newValue[1]);
-    console.log(newValue);
+    props.updatePriceFilter(newValue);
   }
   props.products.map(el => {
     if(!productPrices.find(element => element === Math.round(el.price))) {
       productPrices.push(Math.round(el.price));
     }
-    return;
+    return undefined;
   })
   
   const lowestPrice = Math.min(...productPrices);

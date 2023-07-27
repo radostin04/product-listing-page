@@ -15,7 +15,7 @@ interface ProductsContextType {
   filteredProducts: Product[];
   allProducts: Product[];
   activateCategory: (id: string) => void;
-  filterProductsByPrice: (minPrice: number, maxPrice: number) => void;
+  filterProductsByPrice: (priceRange: number[]) => void;
   filterProductsByColor: (color: string) => void;
   resetFilters: () => void;
 }
@@ -33,6 +33,8 @@ export const ProductsContextProvider = (props: { children: React.ReactNode }) =>
 
   useEffect(() => {
     activateCategory("shirtsMen");
+    //we don't want this to run more than once
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const activateCategory = (id: string) => {
@@ -51,7 +53,7 @@ export const ProductsContextProvider = (props: { children: React.ReactNode }) =>
         setFilteredProducts(finalShitsMen);
         break;
       case "shoesMen":
-        const finalShoesMen = calculateDiscount(generateIds(shoesWomen))
+        const finalShoesMen = calculateDiscount(generateIds(shoesMen))
         setActiveCategory({ name: found.name, id: found.id, description: found.description });
         setAllProduts(finalShoesMen);
         setFilteredProducts(finalShoesMen);
@@ -71,10 +73,10 @@ export const ProductsContextProvider = (props: { children: React.ReactNode }) =>
     }
   };
 
-  const filterProductsByPrice = (minPrice: number, maxPrice: number) => {
+  const filterProductsByPrice = (priceRange: number[]) => {
     setFilteredProducts((prev) => {
       return prev.filter((el) => {
-        return Math.round(el.price) >= minPrice && Math.round(el.price) <= maxPrice;
+        return Math.round(el.price) >= priceRange[0] && Math.round(el.price) <= priceRange[1];
       });
     });
   };

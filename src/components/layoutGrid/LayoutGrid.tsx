@@ -10,7 +10,7 @@ const LayoutGrid = () => {
   return (
     <div className={classes.container}>
       <div className={classes.filterContainer}>
-      <FilteringOptions products={productsCtx.allProducts}></FilteringOptions>
+      <FilteringOptions></FilteringOptions>
       </div>
       <div className={classes.productsContainer}>
         <div className={classes.productsHeader}>

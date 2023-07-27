@@ -1,23 +1,22 @@
-import { ChangeEventHandler, useContext } from "react";
+import { ChangeEventHandler } from "react";
 import { Product } from "../../types";
 import classes from "./ColorFilter.module.css";
-import useProductsContext from "../../store/products-context";
 
-const ColorFilter: React.FC<{ products: Product[] }> = (props) => {
+const ColorFilter: React.FC<{
+  products: Product[];
+  updateColorFilter: (newValue: string) => void;
+}> = (props) => {
   let productColors: string[] = [];
-  const productsCtx = useContext(useProductsContext());
-  
 
   const colorSelectHandler: ChangeEventHandler<HTMLInputElement> = (event) => {
-    productsCtx.resetFilters();
-    productsCtx.filterProductsByColor(event.target.value);
+    props.updateColorFilter(event.target.value);
   };
 
   props.products.map((el) => {
     if (!productColors.find((element) => element === el.color)) {
       productColors.push(el.color);
     }
-    return;
+    return undefined;
   });
 
   return (
