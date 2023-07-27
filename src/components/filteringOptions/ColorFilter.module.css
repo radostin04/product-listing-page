@@ -1,0 +1,10 @@
+.container {
+  margin: 1rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container div {
+  min-width: 9rem;
+}

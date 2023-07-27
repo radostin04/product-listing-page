@@ -19,6 +19,7 @@ const PriceFilter: React.FC<{products: Product[]}> = (props) => {
     if(!productPrices.find(element => element === Math.round(el.price))) {
       productPrices.push(Math.round(el.price));
     }
+    return;
   })
   
   const lowestPrice = Math.min(...productPrices);

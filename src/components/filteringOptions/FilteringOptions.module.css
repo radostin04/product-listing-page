@@ -1,6 +1,19 @@
 .container {
   max-width: 330px;
   border: 1px solid black;
-  height: 20rem;
 }
 
+.container h6 {
+  font-size: 12pt;
+  margin: 0.5rem;
+  margin-left: 1rem;
+}
+
+.container .priceHeader {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container .colorHeader {
+  margin-bottom: 0rem;
+}
