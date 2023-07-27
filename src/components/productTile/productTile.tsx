@@ -13,11 +13,7 @@ const ProductTile: React.FC<{
 }> = (props) => {
   const priceClasses = props.discount ? `${classes.price} ${classes.discount}` : `${classes.price}`;
 
-  let finalPrice = props.price.toString();
-  if(props.discount) {
-    const discountAmount = props.price * (props.discount / 100);
-    finalPrice = (Math.round((props.price - discountAmount) * 100) / 100).toFixed(2);
-  }
+  let finalPrice = props.price.toFixed(2);
 
   return (
     <div className={classes.container}>
