@@ -1,27 +1,31 @@
-import React, { useContext } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import ProductTile from './components/productTile/productTile';
-import useNotificationContext, { NotificationsContextProvider } from './store/notifications-context';
-import NotificationDisplay from './components/notifications/NotificationDisplay';
+import React, { useContext } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import ProductTile from "./components/productTile/productTile";
+import useNotificationContext, {
+  NotificationsContextProvider,
+} from "./store/notifications-context";
+import NotificationDisplay from "./components/notifications/NotificationDisplay";
+
+import shirtsMen from "./products/shirts-men.json";
+import { Product } from "./types";
+import ProductGrid from "./components/productGrid/productGrid";
+import FilteringOptions from "./components/filteringOptions/FilteringOptions";
+import useProductsContext from "./store/products-context";
 
 function App() {
-  const notificationsCtx = useContext(useNotificationContext());
+  const testProducts: Product[] = shirtsMen;
+  const productsCtx = useContext(useProductsContext());
 
-  const buttonHandler = () => {
-    notificationsCtx.addNotification({timeout: 10, text: "Product added to cart!"})
-  }
   return (
     <div>
       <NotificationDisplay portalElementID="portal"></NotificationDisplay>
-      <ProductTile
-      name="test"
-      description="description"
-      price={19.99}
-      discount={20}
-      rating={4.6}
-      image="https://dev.bg/wp-content/uploads/2021/09/s4-v1-black-46x40.png"
-      onClickButton={buttonHandler}></ProductTile>
+      {productsCtx.activeCategory ? (
+        <>
+          <FilteringOptions products={productsCtx.allProducts}></FilteringOptions>
+          <ProductGrid products={productsCtx.filteredProducts}></ProductGrid>
+        </>
+      ) : null}
     </div>
   );
 }

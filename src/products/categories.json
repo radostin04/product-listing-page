@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Men's Shirts",
+    "id": "shirtsMen",
+    "url": "../products/shirts-men.json"
+  },
+  {
+    "name": "Men's Shoes",
+    "id": "shoesMen",
+    "url": "../products/shoes-men.json"
+  },
+  {
+    "name": "Dresses",
+    "id": "dressesWomen",
+    "url": "../products/dresses-women.json"
+  },
+  {
+    "name": "Women's Shoes",
+    "id": "shoesWomen",
+    "url": "../products/shoes-women.json"
+  }
+]

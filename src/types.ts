@@ -6,4 +6,5 @@ export type Product = {
   color: string;
   rating: number;
   discount: number | null
+  id?: number
 }
