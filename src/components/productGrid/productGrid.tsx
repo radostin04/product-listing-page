@@ -11,6 +11,7 @@ const ProductGrid: React.FC<{products: Product[]}> = ({products}) => {
     <div className={classes.productGrid}>
       {products.map((el, i) => {
         return <ProductTile
+        key={el.id}
         name={el.name}
         description={el.description}
         price={el.price}
