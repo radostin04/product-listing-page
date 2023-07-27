@@ -10,8 +10,8 @@ import shoesWomen from "../products/shoes-women.json";
 import { calculateDiscount, generateIds } from "../helpers";
 
 interface ProductsContextType {
-  availableCategories: { name: string; id: string; url: string }[];
-  activeCategory?: { name: string; id: string };
+  availableCategories: { name: string; id: string; url: string, description: string }[];
+  activeCategory?: { name: string; id: string; description: string };
   filteredProducts: Product[];
   allProducts: Product[];
   activateCategory: (id: string) => void;
@@ -23,7 +23,7 @@ interface ProductsContextType {
 export const ProductsContext = createContext<ProductsContextType | undefined>(undefined);
 
 export const ProductsContextProvider = (props: { children: React.ReactNode }) => {
-  const [activeCategory, setActiveCategory] = useState<{ name: string; id: string } | undefined>(
+  const [activeCategory, setActiveCategory] = useState<{ name: string; id: string; description: string } | undefined>(
     undefined
   );
   const [allProducts, setAllProduts] = useState<Product[]>([]);
@@ -45,26 +45,26 @@ export const ProductsContextProvider = (props: { children: React.ReactNode }) =>
     switch (found.id) {
       case "shirtsMen":
         const finalShitsMen = calculateDiscount(generateIds(shirtsMen))
-        setActiveCategory({ name: found.name, id: found.id });
+        setActiveCategory({ name: found.name, id: found.id, description: found.description });
         setAllProduts(finalShitsMen);
         //we want to show an unfiltered list when we first enter a category
         setFilteredProducts(finalShitsMen);
         break;
       case "shoesMen":
         const finalShoesMen = calculateDiscount(generateIds(shoesWomen))
-        setActiveCategory({ name: found.name, id: found.id });
+        setActiveCategory({ name: found.name, id: found.id, description: found.description });
         setAllProduts(finalShoesMen);
         setFilteredProducts(finalShoesMen);
         break;
       case "dressesWomen":
         const finalDressesWomen = calculateDiscount(generateIds(dressesWomen))
-        setActiveCategory({ name: found.name, id: found.id });
+        setActiveCategory({ name: found.name, id: found.id, description: found.description });
         setAllProduts(finalDressesWomen);
         setFilteredProducts(finalDressesWomen);
         break;
       case "shoesWomen":
         const finalShoesWomen = calculateDiscount(generateIds(shoesWomen))
-        setActiveCategory({ name: found.name, id: found.id });
+        setActiveCategory({ name: found.name, id: found.id, description: found.description });
         setAllProduts(finalShoesWomen);
         setFilteredProducts(finalShoesWomen);
         break;

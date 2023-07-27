@@ -10,9 +10,6 @@ const PriceFilter: React.FC<{products: Product[]}> = (props) => {
   const productsCtx = useContext(useProductsContext());
   let productPrices: number[] = []
 
-  useEffect(() => {
-    console.log('e')
-  }, props.products)
   const priceFilterChangeHandler = (newValue: number[], index: number) => {
     productsCtx.resetFilters();
     productsCtx.filterProductsByPrice(newValue[0], newValue[1]);

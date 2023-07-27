@@ -12,6 +12,7 @@ import { Product } from "./types";
 import ProductGrid from "./components/productGrid/productGrid";
 import FilteringOptions from "./components/filteringOptions/FilteringOptions";
 import useProductsContext from "./store/products-context";
+import CategoryHeader from "./components/categoryHeader/CategoryHeader";
 
 function App() {
   const testProducts: Product[] = shirtsMen;
@@ -22,6 +23,7 @@ function App() {
       <NotificationDisplay portalElementID="portal"></NotificationDisplay>
       {productsCtx.activeCategory ? (
         <>
+          <CategoryHeader categoryName={productsCtx.activeCategory.name} description={productsCtx.activeCategory.description} />
           <FilteringOptions products={productsCtx.allProducts}></FilteringOptions>
           <ProductGrid products={productsCtx.filteredProducts}></ProductGrid>
         </>

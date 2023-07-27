@@ -1,0 +1,14 @@
+.container {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+/* category title */
+.container h2 {
+
+}
+
+/* category description */
+.container p {
+
+}

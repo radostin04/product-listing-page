@@ -2,21 +2,25 @@
   {
     "name": "Men's Shirts",
     "id": "shirtsMen",
-    "url": "../products/shirts-men.json"
+    "url": "../products/shirts-men.json",
+    "description": "Look sharp and stylish with our collection of men’s shirts in various styles and colors."
   },
   {
     "name": "Men's Shoes",
     "id": "shoesMen",
-    "url": "../products/shoes-men.json"
+    "url": "../products/shoes-men.json",
+    "description": "Step up your shoe game with our collection of men’s shoes in various styles and sizes."
   },
   {
     "name": "Dresses",
     "id": "dressesWomen",
-    "url": "../products/dresses-women.json"
+    "url": "../products/dresses-women.json",
+    "description": "Be the belle of the ball with our collection of dresses in various styles and colors."
   },
   {
     "name": "Women's Shoes",
     "id": "shoesWomen",
-    "url": "../products/shoes-women.json"
+    "url": "../products/shoes-women.json",
+    "description": "Put your best foot forward with our collection of women’s shoes in various styles and sizes."
   }
 ]
