@@ -9,6 +9,16 @@
   margin-left: 1rem;
 }
 
+@media (max-width: 736px) {
+  .container {
+    display: none;
+  }
+}
+
+.forceShow {
+  display: block !important;
+}
+
 .container .priceHeader {
   margin-top: 1rem;
   margin-bottom: 1rem;

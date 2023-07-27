@@ -1,6 +1,7 @@
 .container {
   border: 1px solid black;
   display: inline-block;
+  min-width: 330px;
 }
 
 /* category title */

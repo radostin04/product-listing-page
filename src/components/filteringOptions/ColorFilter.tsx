@@ -23,14 +23,13 @@ const ColorFilter: React.FC<{
     <div className={classes.container}>
       {productColors.map((el) => {
         return (
-          <div>
+          <div key={el}>
             <input
               name="color"
               type="radio"
               aria-labelledby={`${el}label`}
               onChange={colorSelectHandler}
               value={el}
-              key={el}
             ></input>
             <label id={`${el}label`}>{el}</label>
           </div>
