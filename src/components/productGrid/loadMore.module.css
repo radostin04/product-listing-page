@@ -1,0 +1,9 @@
+.loadMore {
+  width: 100%;
+} 
+
+.loadMore button {
+  padding: 1rem;
+  width: 100%;
+  border-radius: 0rem;
+}
