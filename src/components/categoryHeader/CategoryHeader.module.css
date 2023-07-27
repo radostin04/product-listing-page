@@ -5,10 +5,10 @@
 
 /* category title */
 .container h2 {
-
+  margin: 0.5rem 1rem;
 }
 
 /* category description */
 .container p {
-
+  margin: 0.5rem 1rem;
 }
