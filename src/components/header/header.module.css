@@ -1,0 +1,15 @@
+.header {
+  position:fixed;
+  left: 0px;
+  top: 0px;
+  height: 5rem;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.dummyHeader {
+  position: static;
+}

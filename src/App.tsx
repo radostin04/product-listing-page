@@ -14,6 +14,7 @@ import FilteringOptions from "./components/filteringOptions/FilteringOptions";
 import useProductsContext from "./store/products-context";
 import CategoryHeader from "./components/categoryHeader/CategoryHeader";
 import LayoutGrid from "./components/layoutGrid/LayoutGrid";
+import Header from "./components/header/Header";
 
 function App() {
   const testProducts: Product[] = shirtsMen;
@@ -22,8 +23,11 @@ function App() {
   return (
     <div>
       <NotificationDisplay portalElementID="portal"></NotificationDisplay>
+      <Header />
       {productsCtx.activeCategory ? (
-        <LayoutGrid />
+        //setting a key will cause a full re-render and state reset when 
+        //we change categories
+        <LayoutGrid key={productsCtx.activeCategory.id}/>
       ) : null}
     </div>
   );
