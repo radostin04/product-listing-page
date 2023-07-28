@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: auto;
+  grid-template-rows: 1fr 9999fr;
   grid-template-areas:
   "filters header"
   "filters products";
@@ -49,6 +49,11 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  height: fit-content
+}
+
+.container .productsHeader * {
+  flex-grow: 5;
 }
 
 .container .productsHeader .dropdownElement {

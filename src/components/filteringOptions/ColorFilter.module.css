@@ -9,7 +9,7 @@
   min-width: 9rem;
   display: flex; 
   flex-direction: row;
-  align-items: end;
+  align-items: flex-end;
   justify-content: left;
   margin-bottom: 0.75rem;
 }
