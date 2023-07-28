@@ -40,10 +40,10 @@ const LayoutGrid = () => {
         <CategoryHeader categoryName={productsCtx.activeCategory!.name} description={productsCtx.activeCategory!.description} />
         <button className={classes.filtersButton} onClick={() => {setForceShowFilters(true)}}>filter</button>
         <Dropdown buttonText={`Sort: ${activeSortingMode}`}>
-          <DropdownElement label="A-Z" onClick={() => {setActiveSotringMode("A-Z")}}></DropdownElement>
-          <DropdownElement label="Z-A" onClick={() => {setActiveSotringMode("Z-A")}}></DropdownElement>
-          <DropdownElement label="Price (asc.)" onClick={() => {setActiveSotringMode("Price (asc.)")}}></DropdownElement>
-          <DropdownElement label="Price (dec.) " onClick={() => {setActiveSotringMode("Price (dec.)")}}></DropdownElement>
+          <DropdownElement className={classes.dropdownElement} label="A-Z" onClick={() => {setActiveSotringMode("A-Z")}}></DropdownElement>
+          <DropdownElement className={classes.dropdownElement} label="Z-A" onClick={() => {setActiveSotringMode("Z-A")}}></DropdownElement>
+          <DropdownElement className={classes.dropdownElement} label="Price (asc.)" onClick={() => {setActiveSotringMode("Price (asc.)")}}></DropdownElement>
+          <DropdownElement className={classes.dropdownElement} label="Price (dec.) " onClick={() => {setActiveSotringMode("Price (dec.)")}}></DropdownElement>
         </Dropdown>
       </div>
       <div className={classes.productsContainer}>

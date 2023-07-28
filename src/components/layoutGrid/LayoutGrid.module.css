@@ -51,6 +51,10 @@
   flex-wrap: wrap;
 }
 
+.container .productsHeader .dropdownElement {
+  font-size: 16pt;
+}
+
 .productsHeader .filtersButton {
   display: none;
   width: 100px;

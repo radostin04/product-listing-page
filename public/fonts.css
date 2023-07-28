@@ -1,10 +1,10 @@
-/* 
-contains icons: 
-f000 - star
-eee4 - close */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: "Regular";
+  src: url("./fonts/Lexend-Deca.woff2");
+}
 
 @font-face {
-  font-family: "IcoFont";
-  font-style: "Regular";
-  src: url("./fonts/icofont.woff2") format("woff2")
+  font-family: "Edu SA Beginner";
+  src: url("./fonts/Edu-Sa-Beginner.woff2");
 }

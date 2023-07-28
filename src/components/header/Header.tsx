@@ -15,32 +15,36 @@ const Header = () => {
         <img src="/images/H&M-Logo.svg" alt="logo"/>
         </div>
         <div className={classes.categoriesContainer}>
-        <Dropdown buttonText="Men">
+        <Dropdown className={classes.dropdown} buttonText="Men">
           <DropdownElement
             label="Shirts"
             onClick={() => {
               productsCtx.activateCategory("shirtsMen");
             }}
+            className={classes.dropdownElement}
           ></DropdownElement>
           <DropdownElement
             label="Shoes"
             onClick={() => {
               productsCtx.activateCategory("shoesMen");
             }}
+            className={classes.dropdownElement}
           ></DropdownElement>
         </Dropdown>
-        <Dropdown buttonText="Women">
+        <Dropdown className={classes.dropdown} buttonText="Women">
           <DropdownElement
             label="Dresses"
             onClick={() => {
               productsCtx.activateCategory("dressesWomen");
             }}
+            className={classes.dropdownElement}
           ></DropdownElement>
           <DropdownElement
             label="Shoes"
             onClick={() => {
               productsCtx.activateCategory("shoesWomen");
             }}
+            className={classes.dropdownElement}
           ></DropdownElement>
         </Dropdown>
 

@@ -7,4 +7,26 @@
 
 .container div {
   min-width: 9rem;
+  display: flex; 
+  flex-direction: row;
+  align-items: end;
+  justify-content: left;
+  margin-bottom: 0.75rem;
+}
+
+.container input {
+  width: 16pt;
+  height: 16pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container label {
+  display: inline-block;
+  font-size: 12pt;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.container label::first-letter {
+  text-transform: capitalize;
 }
