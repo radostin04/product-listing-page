@@ -11,6 +11,10 @@ const Header = () => {
     <>
       <div className={classes.dummyHeader + " " + classes.header}></div>
       <div className={classes.header}>
+        <div className={classes.logoContainer}>
+        <img src="/images/H&M-Logo.svg" alt="logo"/>
+        </div>
+        <div className={classes.categoriesContainer}>
         <Dropdown buttonText="Men">
           <DropdownElement
             label="Shirts"
@@ -39,6 +43,8 @@ const Header = () => {
             }}
           ></DropdownElement>
         </Dropdown>
+
+        </div>
       </div>
     </>
   );

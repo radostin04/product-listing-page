@@ -4,11 +4,28 @@
   top: 0px;
   height: 5rem;
   width: 100%;
-  background-color: aqua;
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 50;
+}
+
+.header img {
+  width: auto;
+  height: 100%;
+}
+
+.header .logoContainer {
+  margin: 0.5rem;
+  margin-left: 1rem;
+}
+
+.header .categoriesContainer {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
 }
+
 
 .dummyHeader {
   position: static;
