@@ -51,7 +51,7 @@
   flex-wrap: wrap;
 }
 
-.productsHeader button {
+.productsHeader .filtersButton {
   display: none;
   width: 100px;
   padding: 1rem;
@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 736px) {
-  .productsHeader button {
+  .productsHeader .filtersButton {
     display: inline-block
   }
 }

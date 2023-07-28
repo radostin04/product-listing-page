@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import useProductsContext from "../../store/products-context";
-import Dropdown from "./Dropdown";
-import DropdownElement from "./DropdownElement";
+import Dropdown from "../dropdown/Dropdown";
+import DropdownElement from "../dropdown/DropdownElement";
 import classes from "./header.module.css";
 
 const Header = () => {

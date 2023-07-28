@@ -4,9 +4,31 @@ import useProductsContext from "../../store/products-context";
 import CategoryHeader from "../categoryHeader/CategoryHeader";
 import FilteringOptions from "../filteringOptions/FilteringOptions";
 import ProductGrid from "../productGrid/productGrid";
+import Dropdown from "../dropdown/Dropdown";
+import DropdownElement from "../dropdown/DropdownElement";
+import { sortAZ, sortPriceAsc, sortPriceDec, sortZA } from "../../sorters";
+import { Product } from "../../types";
 
 const LayoutGrid = () => {
   const productsCtx = useContext(useProductsContext());
+  const [activeSortingMode, setActiveSotringMode] = useState<"A-Z" | "Z-A" | "Price (asc.)" | "Price (dec.)">("A-Z")
+
+  let sortedProducts:Product[] = [];
+  switch (activeSortingMode) {
+    case "A-Z":
+      sortedProducts = sortAZ(productsCtx.filteredProducts);
+      break;
+    case "Z-A":
+      sortedProducts = sortZA(productsCtx.filteredProducts);
+      break;
+    case "Price (asc.)":
+      sortedProducts = sortPriceAsc(productsCtx.filteredProducts);
+      break;
+    case "Price (dec.)":
+      sortedProducts = sortPriceDec(productsCtx.filteredProducts)
+      break;
+  }
+
 
   const [forceShowFilters, setForceShowFilters] = useState<boolean>(false)
   return (
@@ -16,10 +38,16 @@ const LayoutGrid = () => {
       </div>
       <div className={classes.productsHeader}>
         <CategoryHeader categoryName={productsCtx.activeCategory!.name} description={productsCtx.activeCategory!.description} />
-        <button onClick={() => {setForceShowFilters(true)}}>filter</button>
+        <button className={classes.filtersButton} onClick={() => {setForceShowFilters(true)}}>filter</button>
+        <Dropdown buttonText={`Sort: ${activeSortingMode}`}>
+          <DropdownElement label="A-Z" onClick={() => {setActiveSotringMode("A-Z")}}></DropdownElement>
+          <DropdownElement label="Z-A" onClick={() => {setActiveSotringMode("Z-A")}}></DropdownElement>
+          <DropdownElement label="Price (asc.)" onClick={() => {setActiveSotringMode("Price (asc.)")}}></DropdownElement>
+          <DropdownElement label="Price (dec.) " onClick={() => {setActiveSotringMode("Price (dec.)")}}></DropdownElement>
+        </Dropdown>
       </div>
       <div className={classes.productsContainer}>
-        <ProductGrid products={productsCtx.filteredProducts}></ProductGrid>
+        <ProductGrid products={sortedProducts}></ProductGrid>
       </div>
     </div>
   )
