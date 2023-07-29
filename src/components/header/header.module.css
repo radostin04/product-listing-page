@@ -17,6 +17,8 @@
 }
 
 .header .dropdown button {
+  background-color: white;
+  color: var(--text);
   font-family: "Edu SA Beginner";
   font-size: 24pt;
 }
@@ -28,6 +30,7 @@
 .header .logoContainer {
   margin: 0.5rem;
   margin-left: 1rem;
+  width: 6.5rem;
 }
 
 .header .categoriesContainer {
@@ -38,4 +41,5 @@
 
 .dummyHeader {
   position: static;
+  background-color: var(--background);
 }

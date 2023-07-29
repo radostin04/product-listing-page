@@ -16,6 +16,7 @@ import CategoryHeader from "./components/categoryHeader/CategoryHeader";
 import LayoutGrid from "./components/layoutGrid/LayoutGrid";
 import Header from "./components/header/Header";
 
+import "./colors.css";
 function App() {
   const testProducts: Product[] = shirtsMen;
   const productsCtx = useContext(useProductsContext());

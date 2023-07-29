@@ -3,19 +3,12 @@
   margin: 1rem;
 }
 
-.slider .sliderTrack {
-  height: 2px;
-  color: pink;
-  background-color: pink;
-}
-
 .slider .sliderThumb {
   position: absolute;
   top: -16px;
   height: 2rem;
   width: 2rem;
-  color: black;
-  background-color: magenta;
+  background-color: var(--accent);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,5 +17,6 @@
 .slider .sliderThumb p {
   margin: 0;
   padding: 0;
+  color: var(--secondary);
 }
 

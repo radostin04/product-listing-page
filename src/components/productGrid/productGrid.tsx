@@ -24,7 +24,7 @@ const ProductGrid: React.FC<{products: Product[]}> = ({products}) => {
 
   return (
     <div>
-      <p>{`Showing ${trimmedProducts.length} of ${products.length}`}</p>
+      <p className={classes.productCounter}>{`Showing ${trimmedProducts.length} of ${products.length}`}</p>
       <div className={classes.productGrid}>
         {trimmedProducts.map((el, i) => {
           return <ProductTile

@@ -1,0 +1,16 @@
+/* To color each part of the slider track seperaetly, we need to use 
+varaible class names that don't work very well with CSS modules
+ Use the global stylesheet ONLY for this! */
+
+.colorSliderTrack {
+  height: 2px;
+  background-color: var(--accent);
+}
+
+.colorSliderTrack-0 {
+  background-color: var(--secondary);
+}
+
+.colorSliderTrack-2 {
+  background-color: var(--secondary);
+}

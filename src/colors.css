@@ -4,4 +4,5 @@
   --primary: hsl(356, 18%, 32%);
   --secondary: hsl(0, 18%, 90%);
   --accent: hsl(356, 100%, 50%);
+  --inner-background: hsl(0, 55%, 90%);
 }

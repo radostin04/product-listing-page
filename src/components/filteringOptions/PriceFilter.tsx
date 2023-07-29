@@ -25,7 +25,7 @@ const PriceFilter: React.FC<{products: Product[], updatePriceFilter: (newValue: 
     <div className={classes.container}>
       <ReactSlider 
       className={classes.slider}
-      trackClassName={classes.sliderTrack}
+      trackClassName="colorSliderTrack"
       thumbClassName={classes.sliderThumb}
       defaultValue={[lowestPrice, highestPrice]}
       renderThumb={(props, state) => <div {...props}><p>{state.valueNow}</p></div>}

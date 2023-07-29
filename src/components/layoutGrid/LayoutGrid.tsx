@@ -38,7 +38,7 @@ const LayoutGrid = () => {
       </div>
       <div className={classes.productsHeader}>
         <CategoryHeader categoryName={productsCtx.activeCategory!.name} description={productsCtx.activeCategory!.description} />
-        <button className={classes.filtersButton} onClick={() => {setForceShowFilters(true)}}>filter</button>
+        <button className={classes.filtersButton} onClick={() => {setForceShowFilters(true)}}>Filters</button>
         <Dropdown buttonText={`Sort: ${activeSortingMode}`}>
           <DropdownElement className={classes.dropdownElement} label="A-Z" onClick={() => {setActiveSotringMode("A-Z")}}></DropdownElement>
           <DropdownElement className={classes.dropdownElement} label="Z-A" onClick={() => {setActiveSotringMode("Z-A")}}></DropdownElement>

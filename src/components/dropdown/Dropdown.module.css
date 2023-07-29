@@ -24,11 +24,13 @@
   padding: 0 1rem;
   font-size: 24pt;
   border-radius: 0;
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 
 .active * {
-  background-color: gray;
-  color: black;
+  background-color: var(--accent);
+  color: var(--text);
 }
 
 .dropdownContent {

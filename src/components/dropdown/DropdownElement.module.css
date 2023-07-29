@@ -4,12 +4,12 @@
   margin: 0;
   padding: 0.5rem 1rem;
   width: 100%;
-  background-color: gray;
-  color: black;
+  background-color: var(--primary);
+  color: var(--secondary);
   font-size: 1rem;
 }
 
 .dropdownElement:hover {
-  background-color: magenta !important;
-  color: black
+  background-color: var(--accent) !important;
+  color: var(--text)
 }

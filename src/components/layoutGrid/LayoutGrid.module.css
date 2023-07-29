@@ -44,12 +44,21 @@
   grid-area: products
 }
 
+.container .productsContainer {
+  margin-top: 0rem;
+}
+
 .container .productsHeader {
   grid-area: header;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  height: fit-content
+  height: fit-content;
+}
+
+@media (max-width: 1066px) {
+  .container .productsHeader {
+   flex-wrap: wrap;
+  }
 }
 
 .container .productsHeader * {
@@ -65,10 +74,17 @@
   width: 100px;
   padding: 1rem;
   flex-grow: 999;
+  background-color: var(--secondary);
+  border-radius: 0rem;
+  border: none;
+  font-size: 24pt;
 }
 
 @media (max-width: 736px) {
   .productsHeader .filtersButton {
     display: inline-block
+  }
+  .container .productsHeader {
+    margin-bottom: 1rem;
   }
 }

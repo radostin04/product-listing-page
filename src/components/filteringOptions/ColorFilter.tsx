@@ -1,6 +1,10 @@
 import { ChangeEventHandler } from "react";
 import { Product } from "../../types";
 import classes from "./ColorFilter.module.css";
+// To color each part of the slider track seperaetly, we need to use 
+// varaible class names that don't work very well with CSS modules
+// Use the global stylesheet ONLY for this!
+import "./ColorFilterSliderTrack.css"
 
 const ColorFilter: React.FC<{
   products: Product[];
