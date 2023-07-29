@@ -25,6 +25,7 @@ const ProductGrid: React.FC<{products: Product[]}> = ({products}) => {
   return (
     <div>
       <p className={classes.productCounter}>{`Showing ${trimmedProducts.length} of ${products.length}`}</p>
+      {products.length > 0 ? (
       <div className={classes.productGrid}>
         {trimmedProducts.map((el, i) => {
           return <ProductTile
@@ -38,7 +39,7 @@ const ProductGrid: React.FC<{products: Product[]}> = ({products}) => {
           onClickButton={() => {notificationsCtx.addNotification({timeout: 10, text:"Product added to cart!"})}}
           />
         })}
-      </div>
+      </div>) : <p>No products found!</p> }
       {productsWereRemoved ? <LoadMore onClick={loadMoreHandler} /> : null}
     </div>
   )
