@@ -23,6 +23,12 @@
   font-size: 24pt;
 }
 
+@media (max-width: 736px) {
+  .header .dropdown button {
+    min-width: 8rem;
+  }
+}
+
 .header .dropdownElement {
   font-size: 16pt !important;
 }
