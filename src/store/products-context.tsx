@@ -10,22 +10,21 @@ import shoesWomen from "../products/shoes-women.json";
 import { calculateDiscount, generateIds } from "../helpers";
 
 interface ProductsContextType {
-  availableCategories: { name: string; id: string; url: string, description: string }[];
+  availableCategories: { name: string; id: string; url: string; description: string }[];
   activeCategory?: { name: string; id: string; description: string };
   filteredProducts: Product[];
   allProducts: Product[];
   activateCategory: (id: string) => void;
-  filterProductsByPrice: (priceRange: number[]) => void;
-  filterProductsByColor: (color: string) => void;
+  filterProducts: (priceRange?: number[], color?: string) => void;
   resetFilters: () => void;
 }
 
 export const ProductsContext = createContext<ProductsContextType | undefined>(undefined);
 
 export const ProductsContextProvider = (props: { children: React.ReactNode }) => {
-  const [activeCategory, setActiveCategory] = useState<{ name: string; id: string; description: string } | undefined>(
-    undefined
-  );
+  const [activeCategory, setActiveCategory] = useState<
+    { name: string; id: string; description: string } | undefined
+  >(undefined);
   const [allProducts, setAllProduts] = useState<Product[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
 
@@ -35,7 +34,7 @@ export const ProductsContextProvider = (props: { children: React.ReactNode }) =>
     activateCategory("shirtsMen");
     //we don't want this to run more than once
     //eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, []);
 
   const activateCategory = (id: string) => {
     const found = availableCategories.find((el) => el.id === id);
@@ -46,26 +45,26 @@ export const ProductsContextProvider = (props: { children: React.ReactNode }) =>
     //but this is the simplest solution for using local data
     switch (found.id) {
       case "shirtsMen":
-        const finalShitsMen = calculateDiscount(generateIds(shirtsMen))
+        const finalShitsMen = calculateDiscount(generateIds(shirtsMen));
         setActiveCategory({ name: found.name, id: found.id, description: found.description });
         setAllProduts(finalShitsMen);
         //we want to show an unfiltered list when we first enter a category
         setFilteredProducts(finalShitsMen);
         break;
       case "shoesMen":
-        const finalShoesMen = calculateDiscount(generateIds(shoesMen))
+        const finalShoesMen = calculateDiscount(generateIds(shoesMen));
         setActiveCategory({ name: found.name, id: found.id, description: found.description });
         setAllProduts(finalShoesMen);
         setFilteredProducts(finalShoesMen);
         break;
       case "dressesWomen":
-        const finalDressesWomen = calculateDiscount(generateIds(dressesWomen))
+        const finalDressesWomen = calculateDiscount(generateIds(dressesWomen));
         setActiveCategory({ name: found.name, id: found.id, description: found.description });
         setAllProduts(finalDressesWomen);
         setFilteredProducts(finalDressesWomen);
         break;
       case "shoesWomen":
-        const finalShoesWomen = calculateDiscount(generateIds(shoesWomen))
+        const finalShoesWomen = calculateDiscount(generateIds(shoesWomen));
         setActiveCategory({ name: found.name, id: found.id, description: found.description });
         setAllProduts(finalShoesWomen);
         setFilteredProducts(finalShoesWomen);
@@ -73,19 +72,21 @@ export const ProductsContextProvider = (props: { children: React.ReactNode }) =>
     }
   };
 
-  const filterProductsByPrice = (priceRange: number[]) => {
+  const filterProducts = (priceRange?: number[], color?: string) => {
     setFilteredProducts((prev) => {
-      return prev.filter((el) => {
-        return Math.round(el.price) >= priceRange[0] && Math.round(el.price) <= priceRange[1];
-      });
-    });
-  };
+      let newProducts = [...prev];
 
-  const filterProductsByColor = (color: string) => {
-    setFilteredProducts((prev) => {
-      return prev.filter((el) => {
-        return el.color === color;
-      });
+      if (priceRange) {
+        newProducts = newProducts.filter((el) => {
+          return Math.round(el.price) >= priceRange[0] && Math.round(el.price) <= priceRange[1];
+        });
+      }
+      if (color) {
+        newProducts = newProducts.filter((el) => {
+          return el.color === color;
+        });
+      }
+      return newProducts;
     });
   };
 
@@ -94,19 +95,20 @@ export const ProductsContextProvider = (props: { children: React.ReactNode }) =>
   };
 
   return (
-    <ProductsContext.Provider value={{
-      availableCategories,
-      activeCategory,
-      filteredProducts,
-      allProducts,
-      activateCategory,
-      filterProductsByPrice,
-      filterProductsByColor,
-      resetFilters,
-    }}>
+    <ProductsContext.Provider
+      value={{
+        availableCategories,
+        activeCategory,
+        filteredProducts,
+        allProducts,
+        activateCategory,
+        filterProducts,
+        resetFilters,
+      }}
+    >
       {props.children}
     </ProductsContext.Provider>
-  )
+  );
 };
 
 const useProductsContext = () => {

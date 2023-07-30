@@ -6,7 +6,7 @@ import useProductsContext from "../../store/products-context";
 
 import classes from "./FilteringOptions.module.css";
 
-const FilteringOptions: React.FC<{forceShow: boolean}> = ({forceShow}) => {
+const FilteringOptions: React.FC<{ forceShow: boolean }> = ({ forceShow }) => {
   const productsCtx = useContext(useProductsContext());
 
   const [priceFilter, setPriceFilter] = useState<number[] | undefined>();
@@ -14,12 +14,7 @@ const FilteringOptions: React.FC<{forceShow: boolean}> = ({forceShow}) => {
 
   useEffect(() => {
     productsCtx.resetFilters();
-    if (priceFilter) {
-      productsCtx.filterProductsByPrice(priceFilter);
-    }
-    if (colorFilter) {
-      productsCtx.filterProductsByColor(colorFilter);
-    }
+    productsCtx.filterProducts(priceFilter, colorFilter);
     //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [priceFilter, colorFilter, productsCtx.allProducts]);
 
