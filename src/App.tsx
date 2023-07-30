@@ -9,6 +9,7 @@ import Header from "./components/header/Header";
 import "./App.css";
 import "./colors.css";
 import "./button.css";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const productsCtx = useContext(useProductsContext());
@@ -22,6 +23,7 @@ function App() {
         //we change categories
         <LayoutGrid key={productsCtx.activeCategory.id} />
       ) : null}
+      <Footer />
     </div>
   );
 }

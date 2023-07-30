@@ -1,6 +1,6 @@
-
 body {
   margin: 1rem;
+  margin-bottom: 0rem;
   width: 1396px;
   margin-left: auto;
   margin-right: auto;
@@ -12,21 +12,20 @@ body {
   color: var(--text);
 }
 
-
 @media (max-width: 1396px) {
   body {
-    width: 1066px
+    width: 1066px;
   }
 }
 @media (max-width: 1066px) {
   body {
-    width: 736px
+    width: 736px;
   }
 }
 
 @media (max-width: 736px) {
   body {
-    width: 406px
+    width: 406px;
   }
 }
 

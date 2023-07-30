@@ -1,0 +1,27 @@
+.container {
+  color: var(--primary);
+}
+
+.container hr {
+  border: 2px solid var(--secondary);
+}
+
+.container a,
+.container p {
+  color: var(--primary);
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.linksContainerInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.copyrightDisclaimer {
+  text-align: center;
+}
