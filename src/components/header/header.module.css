@@ -48,4 +48,5 @@
 .dummyHeader {
   position: static;
   background-color: var(--background);
+  height: 6rem;
 }
