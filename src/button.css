@@ -1,0 +1,7 @@
+.genericButton {
+  background-color: var(--primary);
+  color: var(--secondary);
+  margin: 1rem 0rem;
+  font-size: 24pt;
+  padding: 1rem;
+}

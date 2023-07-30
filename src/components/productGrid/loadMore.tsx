@@ -1,11 +1,13 @@
-import classes from "./loadMore.module.css"
+import classes from "./loadMore.module.css";
 
-const LoadMore: React.FC<{onClick: () => void}> = ({onClick}) => {
+const LoadMore: React.FC<{ onClick: () => void }> = ({ onClick }) => {
   return (
     <div className={classes.loadMore}>
-      <button onClick={onClick}>Load more...</button>
+      <button className="genericButton" onClick={onClick}>
+        Load more...
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default LoadMore
+export default LoadMore;
