@@ -37,6 +37,7 @@
   padding: 0.5rem;
   width: fit-content;
   background-color: var(--primary);
+  border-radius: 0.5rem;
 }
 
 .priceAndAddContainer .price * {
@@ -78,4 +79,5 @@
   background-color: var(--primary);
   color: var(--secondary);
   font-size: 16pt;
+  border-radius: 0.5rem;
 }

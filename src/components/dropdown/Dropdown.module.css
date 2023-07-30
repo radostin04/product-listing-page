@@ -26,6 +26,7 @@
   border-radius: 0;
   background-color: var(--primary);
   color: var(--secondary);
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
 .dropdownContainer .dropdown.active .dropdownButton {
