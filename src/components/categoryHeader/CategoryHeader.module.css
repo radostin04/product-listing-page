@@ -3,6 +3,12 @@
   min-width: 330px;
 }
 
+@media (max-width: 1066px) {
+  .container {
+    margin-bottom: 1rem;
+  }
+}
+
 /* category title */
 .container h2 {
   margin: 0.5rem 1rem 0rem 0rem;
