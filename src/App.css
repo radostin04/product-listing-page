@@ -1,4 +1,12 @@
 body {
+  background-color: var(--background);
+}
+
+#portal {
+  margin-top: -16px;
+}
+
+#root {
   margin: 1rem;
   margin-bottom: 0rem;
   width: 1396px;
@@ -13,18 +21,18 @@ body {
 }
 
 @media (max-width: 1396px) {
-  body {
+  #root {
     width: 1066px;
   }
 }
 @media (max-width: 1066px) {
-  body {
+  #root {
     width: 736px;
   }
 }
 
 @media (max-width: 736px) {
-  body {
+  #root {
     width: 406px;
   }
 }
