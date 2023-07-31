@@ -1,7 +1,7 @@
 .productGrid {
   text-align: center;
   display: flex;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   row-gap: 1rem;
   align-content: space-between;
   justify-content: space-between;
@@ -10,26 +10,24 @@
 
 @media (max-width: 1396px) {
   .productGrid {
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 1066px) {
   .productGrid {
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
   }
 }
 
-
 @media (max-width: 736px) {
   .productCounter {
-    margin-top: 0rem;
+    margin-left: 2.3rem;
   }
-  
+
   .productGrid {
     grid-template-columns: 1fr;
     align-content: center;
     justify-content: center;
   }
 }
-
