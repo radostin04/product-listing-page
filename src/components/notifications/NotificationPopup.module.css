@@ -1,6 +1,6 @@
 .notificationPopup {
   background-color: var(--primary);
-  width: 30vw;
+  width: 20vw;
   min-width: 300px;
   border-radius: 0.5rem;
   pointer-events: all;
