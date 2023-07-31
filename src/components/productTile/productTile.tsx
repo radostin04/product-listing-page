@@ -1,6 +1,7 @@
 import StarsRating from "./starsRating";
 import classes from "./productTile.module.css";
 import { MouseEventHandler } from "react";
+import React from "react";
 
 const ProductTile: React.FC<{
   name: string;
@@ -10,7 +11,7 @@ const ProductTile: React.FC<{
   rating: number;
   image: string;
   onClickButton: MouseEventHandler<HTMLButtonElement>;
-}> = (props) => {
+}> = React.memo((props) => {
   const priceClasses = props.discount ? `${classes.price} ${classes.discount}` : `${classes.price}`;
 
   let finalPrice = props.price.toFixed(2);
@@ -32,6 +33,6 @@ const ProductTile: React.FC<{
       </div>
     </div>
   );
-};
+});
 
 export default ProductTile;

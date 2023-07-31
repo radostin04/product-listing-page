@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useCallback, useContext, useEffect, useState } from "react";
 
 import PriceFilter from "./PriceFilter";
 import ColorFilter from "./ColorFilter";
@@ -18,12 +18,12 @@ const FilteringOptions: React.FC<{ forceShow: boolean }> = ({ forceShow }) => {
     //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [priceFilter, colorFilter, productsCtx.allProducts]);
 
-  const updatePriceFilter = (newValue: number[]) => {
+  const updatePriceFilter = useCallback((newValue: number[]) => {
     setPriceFilter(newValue);
-  };
-  const updateColorFilter = (newValue: string) => {
+  }, []);
+  const updateColorFilter = useCallback((newValue: string) => {
     setColorFilter(newValue);
-  };
+  }, []);
 
   return (
     <div className={`${classes.container} ${forceShow ? classes.forceShow : ""}`}>

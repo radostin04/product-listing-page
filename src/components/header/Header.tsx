@@ -1,10 +1,10 @@
-import { useContext } from "react";
+import React, { useContext } from "react";
 import useProductsContext from "../../store/products-context";
 import Dropdown from "../dropdown/Dropdown";
 import DropdownElement from "../dropdown/DropdownElement";
 import classes from "./header.module.css";
 
-const Header = () => {
+const Header = React.memo(() => {
   const productsCtx = useContext(useProductsContext());
 
   return (
@@ -52,6 +52,6 @@ const Header = () => {
       </div>
     </>
   );
-};
+});
 
 export default Header;
