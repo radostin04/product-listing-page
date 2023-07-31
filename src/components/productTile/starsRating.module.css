@@ -1,6 +1,6 @@
 .starsContainer {
   text-align: left;
-  margin: 0rem 0rem 0rem 1rem
+  margin: 0rem 0rem 0rem 1rem;
 }
 
 .starsContainer * {
@@ -10,16 +10,55 @@
 }
 
 .full {
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
   background-color: var(--accent);
 }
 
 .half {
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  background: linear-gradient(to right, var(--accent) 0%, var(--accent) 50%, var(--primary) 50%, var(--primary) 100%)
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background: linear-gradient(
+    to right,
+    var(--accent) 0%,
+    var(--accent) 50%,
+    var(--primary) 50%,
+    var(--primary) 100%
+  );
 }
 
 .empty {
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
   background-color: var(--primary);
-  }
+}

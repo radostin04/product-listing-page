@@ -5,6 +5,6 @@ export type Product = {
   image: string;
   color: string;
   rating: number;
-  discount: number | null
-  id?: number
-}
+  discount: number | null;
+  id?: number;
+};

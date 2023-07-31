@@ -1,4 +1,5 @@
 import React from "react";
+
 import classes from "./CategoryHeader.module.css";
 
 const CategoryHeader: React.FC<{ categoryName: string; description: string }> = React.memo(

@@ -1,9 +1,9 @@
 import { createContext, useContext, useState } from "react";
 
 type Notification = {
-  timeout: number,
-  text: string,
-}
+  timeout: number;
+  text: string;
+};
 
 interface NotificationsContextType {
   notifications: Notification[];
@@ -13,7 +13,7 @@ interface NotificationsContextType {
 
 export const NotificationsContext = createContext<NotificationsContextType | undefined>(undefined);
 
-export const NotificationsContextProvider = (props: {children: React.ReactNode}) => {
+export const NotificationsContextProvider = (props: { children: React.ReactNode }) => {
   const [notifications, setNotifications] = useState<Notification[]>([]);
 
   const addNotification = (notification: Notification) => {
@@ -32,14 +32,17 @@ export const NotificationsContextProvider = (props: {children: React.ReactNode})
   };
 
   return (
-    <NotificationsContext.Provider value={{
-      notifications,
-      addNotification,
-      removeNotification,
-    }}>
+    <NotificationsContext.Provider
+      value={{
+        notifications,
+        addNotification,
+        removeNotification,
+      }}
+    >
       {props.children}
-    </NotificationsContext.Provider>)
-}
+    </NotificationsContext.Provider>
+  );
+};
 
 const useNotificationContext = () => {
   const checkContext = useContext(NotificationsContext);

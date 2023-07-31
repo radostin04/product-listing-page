@@ -15,7 +15,6 @@ const NotificationPopup: React.FC<NotificationPopupProps> = ({ notification, clo
     }, notification.timeout * 1000 + 100);
   }, [notification, closeSelf, id]);
 
-
   return (
     <div className={classes.notificationPopup}>
       <div className={classes.countdownBarBar}>

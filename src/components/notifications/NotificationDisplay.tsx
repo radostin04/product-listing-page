@@ -15,21 +15,21 @@ const NotificationDisplay: React.FC<NotificationDisplayProps> = ({ portalElement
 
   return (
     <Overlay portalElementID={portalElementID} onClose={() => {}} isClickthrough={true}>
-    <div className={classes.notificationDisplayContainer}>
-      <div className={classes.notificationDisplayChildren}>
-        {notificationCtx.notifications.map((el, i) => {
-          if (el === undefined) return null;
-          return (
-            <NotificationPopup
-              notification={el}
-              key={i}
-              id={i}
-              closeSelf={notificationCtx.removeNotification}
-            />
-          );
-        })}
+      <div className={classes.notificationDisplayContainer}>
+        <div className={classes.notificationDisplayChildren}>
+          {notificationCtx.notifications.map((el, i) => {
+            if (el === undefined) return null;
+            return (
+              <NotificationPopup
+                notification={el}
+                key={i}
+                id={i}
+                closeSelf={notificationCtx.removeNotification}
+              />
+            );
+          })}
+        </div>
       </div>
-    </div>
     </Overlay>
   );
 };

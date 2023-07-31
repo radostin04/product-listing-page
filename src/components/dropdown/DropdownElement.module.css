@@ -11,5 +11,5 @@
 
 .dropdownElement:hover {
   background-color: var(--accent) !important;
-  color: var(--text)
+  color: var(--text);
 }

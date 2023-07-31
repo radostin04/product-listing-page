@@ -13,6 +13,7 @@ const FilteringOptions: React.FC<{ forceShow: boolean }> = ({ forceShow }) => {
   const [colorFilter, setColorFilter] = useState<string | undefined>();
 
   useEffect(() => {
+    //Reset existing filters before setting new filters
     productsCtx.resetFilters();
     productsCtx.filterProducts(priceFilter, colorFilter);
     //eslint-disable-next-line react-hooks/exhaustive-deps

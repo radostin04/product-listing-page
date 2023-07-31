@@ -1,9 +1,10 @@
 import { useState } from "react";
+
 import classes from "./Dropdown.module.css";
 
 interface DropdownProps {
   buttonText: string;
-  className?: string
+  className?: string;
   children: React.ReactNode;
 }
 
@@ -16,7 +17,7 @@ const Dropdown: React.FC<DropdownProps> = ({ buttonText, children, className }) 
   };
 
   return (
-    <div className={`${classes.dropdownContainer} ${className}` }>
+    <div className={`${classes.dropdownContainer} ${className}`}>
       <div
         className={`${classes.dropdown} ${isOpen ? classes.active : ""}`}
         onClick={menuClickHandler}

@@ -4,12 +4,12 @@ import NotificationDisplay from "./components/notifications/NotificationDisplay"
 import useProductsContext from "./store/products-context";
 import LayoutGrid from "./components/layoutGrid/LayoutGrid";
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 //Import global styles
 import "./App.css";
 import "./colors.css";
 import "./button.css";
-import Footer from "./components/footer/Footer";
 
 function App() {
   const productsCtx = useContext(useProductsContext());

@@ -1,4 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
+
+import { calculateDiscount, generateIds } from "../helpers";
 import { Product } from "../types";
 
 import categories from "../products/categories.json";
@@ -7,7 +9,6 @@ import shirtsMen from "../products/shirts-men.json";
 import shoesMen from "../products/shoes-men.json";
 import dressesWomen from "../products/dresses-women.json";
 import shoesWomen from "../products/shoes-women.json";
-import { calculateDiscount, generateIds } from "../helpers";
 
 interface ProductsContextType {
   availableCategories: { name: string; id: string; url: string; description: string }[];

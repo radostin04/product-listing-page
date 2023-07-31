@@ -1,5 +1,5 @@
 .header {
-  position:fixed;
+  position: fixed;
   left: 0px;
   top: 0px;
   height: 5rem;
@@ -43,7 +43,6 @@
   display: flex;
   flex-direction: row;
 }
-
 
 .dummyHeader {
   position: static;

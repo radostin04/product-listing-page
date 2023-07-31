@@ -44,7 +44,7 @@
   width: auto;
   display: inline;
   background-color: var(--primary);
-  color: var(--secondary);  
+  color: var(--secondary);
 }
 
 .priceAndAddContainer .price p {
@@ -54,7 +54,8 @@
   margin-bottom: auto;
 }
 
-.priceAndAddContainer .price.discount, .priceAndAddContainer .price.discount p {
+.priceAndAddContainer .price.discount,
+.priceAndAddContainer .price.discount p {
   background-color: var(--accent);
 }
 

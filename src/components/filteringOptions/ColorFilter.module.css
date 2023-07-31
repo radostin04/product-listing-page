@@ -7,7 +7,7 @@
 
 .container div {
   min-width: 9rem;
-  display: flex; 
+  display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: left;
@@ -28,6 +28,7 @@
   margin-top: auto;
   margin-bottom: auto;
 }
+
 .container label::first-letter {
   text-transform: capitalize;
 }
